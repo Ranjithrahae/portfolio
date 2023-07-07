@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Arimo:ital,wght@0,700;1,500&family=Belanosima:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+*,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: rgb(37, 37, 37);
+  list-style: none;
+  text-decoration: none;
+}

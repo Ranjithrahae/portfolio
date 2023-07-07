@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+.mySkills {
+  justify-content: center;
+  display: flex;
+}
+h4 {
+  color: rgb(189, 189, 189);
+  font-family: "Nothing You Could Do", cursive;
+  letter-spacing: 0.8rem;
+}

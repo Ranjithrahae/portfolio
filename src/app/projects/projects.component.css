@@ -1,0 +1,11 @@
+.heading {
+  letter-spacing: 1rem;
+  color: rgb(189, 189, 189);
+  font-family: "Nothing You Could Do", cursive;
+}
+.card {
+  height: 40rem;
+  color: white;
+  width: 30rem;
+  border-radius: 20px;
+}
