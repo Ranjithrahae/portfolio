@@ -14,9 +14,11 @@
   </head>
   <body>
     <script>
+      //ToolTip
       var tooltipTriggerList = [].slice.call(
         document.querySelectorAll('[data-bs-toggle="tooltip"]')
       );
+      //TEXT ROTATING
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl);
       });

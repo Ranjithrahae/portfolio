@@ -1,0 +1,27 @@
+h3 {
+  letter-spacing: 1rem;
+  color: rgb(189, 189, 189);
+  font-family: "Nothing You Could Do", cursive;
+}
+p {
+  color: rgb(193, 193, 193);
+}
+.heading {
+  color: white;
+  letter-spacing: 2px;
+}
+span {
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+}
+
+.btn {
+  background-color: rgb(228, 149, 0);
+  color: white;
+  font-size: large;
+  width: 10rem;
+  height: 2.5rem;
+}
+.btn:hover {
+  background-color: rgb(174, 113, 0);
+}

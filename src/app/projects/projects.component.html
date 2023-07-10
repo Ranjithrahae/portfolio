@@ -1,2 +1,50 @@
-<div class="heading d-flex justify-content-center"><h3>PROJECTS</h3></div>
-<div class="card"></div>
+<div class="heading d-flex justify-content-center pt-5"><h3>PROJECTS</h3></div>
+<div class="d-flex projects">
+  <div class="card mx-5 my-3" *ngFor="let card of cards">
+    <img class="tumbnail" src="{{ card.img }}" />
+    <div
+      class="d-flex mt-4"
+      style="background-color: transparent; justify-content: space-around"
+    >
+      <p>{{ card.Pname }}</p>
+      <div class="d-flex justify-content-center">
+        <img
+          class="techicons"
+          src="{{ card.tech1 }}"
+          onerror='this.style.display = "none"'
+        />
+        <img
+          class="techicons"
+          src="{{ card.tech2 }}"
+          onerror='this.style.display = "none"'
+        />
+        <img
+          class="techicons"
+          src="{{ card.tech3 }}"
+          onerror='this.style.display = "none"'
+        />
+      </div>
+    </div>
+    <!-- Button for web links-->
+    <div class="d-flex justify-content-center my-1">
+      <a class="px-1" href="{{ card.link }}" target="_blank">
+        <button class="btn">VIEW SITE</button></a
+      ><a class="px-1" href="{{ card.git }}" target="_blank"
+        ><button class="btn">VIEW CODE</button></a
+      >
+    </div>
+    <div class="techlist d-flex justify-content-center w-100">
+      <div class="list">
+        <li>{{ card.tl1 }}</li>
+        <li>{{ card.tl2 }}</li>
+        <li>{{ card.tl3 }}</li>
+        <li>{{ card.tl4 }}</li>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function hideImg() {
+    document.getElementsByClassName("techicons").style.display = "none";
+  }
+</script>

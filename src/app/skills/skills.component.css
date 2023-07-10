@@ -8,3 +8,9 @@ h4 {
   font-family: "Nothing You Could Do", cursive;
   letter-spacing: 0.8rem;
 }
+@media only screen and (max-width: 600px) {
+  .center {
+    justify-content: center;
+    margin-left: 1rem;
+  }
+}

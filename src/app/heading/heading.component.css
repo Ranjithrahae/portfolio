@@ -37,13 +37,17 @@
 
 .head {
   border: none;
+  margin-left: 10rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  display: flex;
 }
 h1 {
   font-weight: 900;
   font-size: 60px;
   color: white;
   font-family: "Arimo", sans-serif;
-  letter-spacing: 0.5rem;
+  letter-spacing: 1rem;
 }
 .heroButton {
   color: rgb(179, 179, 179);
@@ -51,6 +55,7 @@ h1 {
   border-color: rgb(37, 37, 37);
   margin-right: 1rem;
   border: none;
+  background-color: rgb(37, 37, 37);
 }
 .heroButton:hover {
   color: white;
@@ -63,12 +68,56 @@ h1 {
 .txt-rotate {
   color: rgb(179, 179, 179);
   font-family: "Alkalami", serif;
-  font-size: 15px;
-  letter-spacing: 0.1rem;
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+}
+.profile {
+  display: flex;
+  justify-content: right;
+  margin-top: 10rem;
+  margin-right: 5rem;
+  opacity: 0.8;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 1.5rem;
+}
+.box {
+  position: relative;
+  width: 310px;
+  height: 310px;
+  background-image: conic-gradient(
+    rgb(23, 25, 87),
+    rgb(6, 172, 255),
+    rgb(231, 42, 42),
+    rgb(252, 1, 235),
+    rgb(58, 33, 55)
+  );
+  border-radius: 50%;
+  transition: 1s;
+}
+.box:hover {
+  transform: rotate(-360deg);
+}
+.profile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 800px) {
+  .head {
+    display: block;
+    margin: 0;
+    justify-content: center;
+  }
+  .profile {
+    justify-content: center;
+    margin-top: 7rem;
+    margin-right: auto;
+  }
 }
 @media only screen and (max-width: 600px) {
-  .heading {
-    width: 100%;
+  .head {
+    justify-content: center;
+    margin-left: 0;
   }
   .heading h1 {
     font-size: 40px;
@@ -76,5 +125,27 @@ h1 {
   }
   .heroButton {
     margin-right: 0.5rem;
+  }
+
+  .txt-rotate {
+    font-size: 15px;
+  }
+
+  .box {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+  }
+  .profile {
+    margin-top: 2rem;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
   }
 }
