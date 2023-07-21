@@ -19,7 +19,6 @@
     flex-shrink: 0;
     opacity: 0.9;
     box-shadow: 10px 10px rgb(23, 23, 23);
-    transition: 1s;
   }
   .card:hover {
     opacity: 1;

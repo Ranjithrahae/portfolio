@@ -93,6 +93,8 @@
     );
     border-radius: 50%;
     transition: 1s;
+    bottom: 4rem;
+    opacity: 0.8;
   }
   .box:hover {
     transform: rotate(-360deg);
@@ -107,7 +109,7 @@
     transform: rotate(360deg);
     border-radius: 20%;
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 950px) {
     .head {
       display: block;
       margin: 0;

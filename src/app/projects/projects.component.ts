@@ -37,13 +37,13 @@ export class ProjectsComponent {
       tl3: 'Javascript',
     },
     {
-      img: '',
+      img: 'assets/weatherapp.png',
       tech1: 'html.svg',
       tech2: '',
       tech3:
         'https://cdn.sanity.io/images/m45u25nb/production/093ea39748ad4561f3b9c1370c90e844f0389a24-512x512.png',
 
-      Pname: '',
+      Pname: 'Weatherapp',
       git: '',
       link: '',
       tl1: 'html',
