@@ -1,3 +1,8 @@
+*{
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: center;
+}
+
 .transparent {
     background-image: url("https://www.mindinventory.com/blog/wp-content/uploads/2022/10/frontend-development-tools.png");
     overflow: hidden;
@@ -7,10 +12,3 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  @media only screen and (max-width: 380px) {
-    .transparent {
-      background-image: url("src\assets\fuel.jpg");
-      min-height: 500px;
-    }
-  }
-  

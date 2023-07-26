@@ -8,11 +8,11 @@ h4 {
   font-family: "Nothing You Could Do", cursive;
   letter-spacing: 0.8rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
   .center {
     display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    margin-left: 1rem;
+    grid-template-columns: 10rem 10rem;
+    justify-content: space-between;
+    margin-left: 0.5rem;
   }
 }

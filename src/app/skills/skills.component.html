@@ -5,15 +5,14 @@
     <div class="center">
       <button
         type="button"
-        class="btn col-sm-6 col-md-4 col-lg-3 mb-5 pb-5"
+        class="btn col-sm-4 col-md-4 col-lg-3 mb-5 pb-5 "
         *ngFor="let images of image"
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="{{ images.tooltip }}"
         style="border: none"
+        placement="top" 
+        ngbTooltip="{{ images.tooltip }}"
       >
-        <img loading="lazy" style="width: 70px" src="{{ images.imageurl }}" />
-      </button>
+        <img style="width: 70px" src="{{ images.imageurl }}" class="image" />
+    </button>
     </div>
   </div>
-  
+ 
