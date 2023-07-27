@@ -1,6 +1,6 @@
 <div class="heading d-flex justify-content-center pt-5"><h3>PROJECTS</h3></div>
 <div class="d-flex projects">
-  <div class="card mx-5 my-3" *ngFor="let card of cards">
+  <div class="card mx-5 my-4" *ngFor="let card of cards">
     <img class="tumbnail" src="{{ card.img }}" />
     <div
       class="d-flex mt-4"
@@ -33,18 +33,13 @@
         ><button class="btn">VIEW CODE</button></a
       >
     </div>
-    <div class="techlist d-flex justify-content-center w-100">
-      <div class="list">
-
-        <li>{{ card.tl1 }}</li>
-        <li>{{ card.tl2 }}</li>
-        <li>{{ card.tl3 }}</li>
-        <li>{{ card.tl4 }}</li>
-        
+  
+    <div class="techlist my-3">
+      <div class="list mx-5" *ngFor="let tls of card.tl">
+        <li>{{ tls }}</li>
       </div>
-    </div>
+    </div></div>
   </div>
-</div>
 <script>
   function hideImg() {
     document.getElementsByClassName("techicons").style.display = "none";
