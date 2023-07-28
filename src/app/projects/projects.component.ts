@@ -17,7 +17,7 @@ export class ProjectsComponent {
       Pname: 'Mapty',
       git: '',
       link: '',
-      tl:['html', 'Bootstrap', 'Javascript','GeoLocation API','Netlify Hosting']
+      tl:['Html', 'Bootstrap', 'Javascript','GeoLocation API','Netlify Hosting']
     },
     {
       img: 'assets/cred.png',
@@ -29,7 +29,7 @@ export class ProjectsComponent {
       Pname: 'Cred-Clone',
       git: 'https://github.com/Ranjithrahae/cred-clone',
       link: 'https://cred-cloneranjith.netlify.app/',
-      tl:['html', 'Bootstrap', 'Javascript','Netlify Hosting']
+      tl:['Html', 'Bootstrap', 'Javascript','Netlify Hosting']
     },
     {
       img: 'assets/pig.png',
@@ -41,7 +41,7 @@ export class ProjectsComponent {
       Pname: 'PIG-GAME',
       git: 'https://github.com/Ranjithrahae/pig-game',
       link: 'https://pig-gamerahae.netlify.app/',
-      tl:['html', 'CSS', 'Javascript','Netlify Hosting']
+      tl:['Html', 'CSS', 'Javascript','Netlify Hosting']
     },
     {
       img: 'assets/weatherapp.png',
@@ -51,7 +51,7 @@ export class ProjectsComponent {
       Pname: 'Weatherapp',
       git: 'https://github.com/Ranjithrahae/weatherApp',
       link: '',
-      tl:['html', 'Bootstrap', 'Javascript','Open-Weather API','Netlify Hosting']
+      tl:['Html', 'Bootstrap', 'Javascript','Open-Weather API','Netlify Hosting']
     },
    
   ];

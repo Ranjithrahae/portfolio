@@ -13,7 +13,7 @@ export class SkillsComponent {
       percent:'90%'
     },
     {
-      tooltip: 'css',
+      tooltip: 'CSS',
       imageurl: ' assets/CSS3_logo.svg',
       percent:'90%'
     },
@@ -35,12 +35,12 @@ export class SkillsComponent {
       percent:'60%'
     },
     {
-      tooltip: 'bootstrap',
+      tooltip: 'Bootstrap',
       imageurl: ' assets/bootstrap.jpg',
       percent:'80%'
     },
     {
-      tooltip: 'sql',
+      tooltip: 'SQL',
       imageurl: ' assets/sql.png',
       percent:'50%'
     },

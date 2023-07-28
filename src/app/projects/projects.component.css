@@ -11,7 +11,7 @@
     scroll-snap-type: x mandatory;
   }
   .card {
-    scroll-snap-align:  none start;
+    scroll-snap-align:  none center;
     position: relative;
     height: 600px;
     width: 450px;
