@@ -44,6 +44,16 @@ export class ProjectsComponent {
       tl:['Html', 'CSS', 'Javascript','Netlify Hosting']
     },
     {
+      img: 'assets/recruitment-app.png',
+      tech1: 'assets/react.svg',
+      tech2: 'assets/CSS3_logo.svg',
+      tech3:'assets/bootstrap.jpg',
+      Pname: 'Recruitment startup',
+      git: 'https://github.com/Ranjithrahae/Coursify__task',
+      link: 'https://coursify-task.vercel.app/',
+      tl:['ReactJs','Css', 'Bootstrap','vercel Hosting']
+    },
+     {
       img: 'assets/weatherapp.png',
       tech1: 'assets/html.svg',
       tech2: 'assets/CSS3_logo.svg',
@@ -53,6 +63,5 @@ export class ProjectsComponent {
       link: '',
       tl:['Html', 'Bootstrap', 'Javascript','Open-Weather API','Netlify Hosting']
     },
-   
   ];
 }
