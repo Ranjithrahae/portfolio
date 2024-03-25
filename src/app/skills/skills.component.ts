@@ -44,7 +44,11 @@ export class SkillsComponent {
       imageurl: ' assets/java.png',
       percent:'50%'
     },
-    
+    {
+      tooltip: 'ReactJs',
+      imageurl: ' assets/react.svg',
+      percent:'50%'
+    },
   ];
 }
   
